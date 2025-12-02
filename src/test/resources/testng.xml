@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BlazeDemoSuite" verbose="2">
+  <listeners>
+    <listener class-name="com.aajil.blazedemo.listeners.NoFlightsListener"/>
+  </listeners>
+
+  <test name="PurchaseFlowTests">
+    <classes>
+      <class name="com.aajil.blazedemo.tests.PurchaseFlowTest"/>
+    </classes>
+  </test>
+</suite>
